@@ -1,5 +1,20 @@
-import $ from 'jquery'
-import _ from 'lodash'
-const storage = firebase.storage();
-const storageRef = storage.ref();
-console.log($)
+import React from 'react'
+import { render } from 'react-dom'
+
+class Root extends React.Component {
+
+  constructor(props) {
+    super(props)
+  }
+
+  render() {
+    return (
+      <div>RootElement</div>
+    )
+  }
+
+}
+
+const rootElement = document.getElementById('app')
+
+render(<Root />, rootElement)
