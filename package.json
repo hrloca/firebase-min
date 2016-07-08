@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "login": "firebase login",
     "open": "firebase open",
     "deploy": "firebase deploy",
+    "logout": "firebase logout",
     "dev": "npm run watch & npm run serve",
     "build": "webpack -d --progress --colors",
     "serve": "browser-sync start --server './www'  --files='./www/stat/js/**/*.js, ./www/stat/css/**/*.css, ./www/index.html'",

@@ -9,7 +9,7 @@ class Root extends React.Component {
 
   render() {
     return (
-      <div>RootElement</div>
+      <div>Root</div>
     )
   }
 
