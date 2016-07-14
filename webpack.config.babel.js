@@ -57,7 +57,7 @@ const cssConfig = {
       }),
       require('postcss-cssnext'),
       require('postcss-reporter'),
-      require('cssnano')
+      require('cssnano'),
     ];
   }
 }

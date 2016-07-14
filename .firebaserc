@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "concrete-braid-133708"
+    "default": "concrete-braid-133708",
+    "staging": "ojt-javascript"
   }
 }
